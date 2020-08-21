@@ -95,6 +95,6 @@ except Exception as e:
 #### the Answer of NameError
 
 
-![the result of the Answer of NameError](https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment%2007-1-Answer.JPG "the Answer of NameError")
+![the result of NameError](https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment%2007-1-Answer.JPG "the Answer of NameError")
 #### Figure 2. The result of the Answer of NameError
 
