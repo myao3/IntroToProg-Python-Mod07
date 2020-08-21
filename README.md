@@ -45,7 +45,7 @@ except Exception as e:
     print(e, e.__doc__, type(e), sep='\n')
     
 ```
-NameError
-docs/Assignment 07-1-1.JPG
-#### Figure 1. The results of NameError
+####NameError
+https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment%2007-1-1.JPG
+####the result of NameError
 
