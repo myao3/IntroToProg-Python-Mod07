@@ -2,7 +2,7 @@
 **Dev:** *Myao*   
 **Date:** *8.20.2020*
 
-## Name Error Handling (Try-Except)When you are programming, you fix your bugs immediately and make sure the code runs smoothly. However, it often happens that other people introduce new bugs when they use your program.### Raising Custom ErrorsPython automatically generates errors based on conditions defined by the Python Runtime. However, you can also "raise" errors based on custom conditions (Listing13). 
+## Name Error Handling (Try-Except)When you are programming, you fix your bugs immediately and make sure the code runs smoothly. However, it often happens that other people introduce new bugs when they use your program.### Raising Custom ErrorsPython automatically generates errors based on conditions defined by the Python Runtime. However, you can also "raise" errors based on custom conditions . 
 
 ```
 # ------------------------------------------------- #
@@ -46,5 +46,6 @@ except Exception as e:
     
 ```
 NameError
-![Results of NameError](docs/Assignment 07-1-1.JPG"Results of NameError")#### Figure 1. The results of NameError
+docs/Assignment 07-1-1.JPG
+#### Figure 1. The results of NameError
 
