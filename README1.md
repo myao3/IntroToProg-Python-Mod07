@@ -99,3 +99,73 @@ except Exception as e:
 ![the result of NameError](https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment%2007-1-Answer.JPG "the Answer of NameError")
 #### Figure 2. The result of the Answer of NameError
 
+### Name Error Handling (Try-Except)
+
+```
+#------------------------------------------------- #
+# Title: Pickle dump & Pickle Load1
+# Description: A simple example of Pickle dump
+# Chang.Log: (Who, When, What)
+# Myao,08.19.2020
+# ------------------------------------------------- #
+
+
+
+import pickle
+# Save a dictionary into a pickle file.
+favorite_color = { "lion": "yellow", "kitty": "red" }
+pickle.dump( favorite_color, open( "datafile2.txt", "wb" ) )
+
+import pickle
+# Load the dictionary back from the pickle file.
+favorite_color = pickle.load( open("datafile2.txt", "rb" ) )
+print(favorite_color)
+
+#favorite_color is now { "lion": "yellow", "kitty": "red" }
+
+
+```
+
+#### Pickle dump & Pickle Load1
+
+
+![the result of Pickle dump & Pickle Load1](https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment07-3-1.JPG "The result of Pickle dump & Pickle Load1")
+#### Figure 3. The result of Pickle dump & Pickle Load1
+
+### Name Error Handling (Try-Except)
+
+```
+#------------------------------------------------- #
+# Title: Pickle dump & Pickle Load2
+# Description: A simple example of Pickle dump
+# Chang.Log: (Who, When, What)
+# Myao,08.19.2020
+# ------------------------------------------------- #
+
+
+
+#favorite_color is now { "lion": "yellow", "kitty": "red" }
+import pickle
+stranimal = input("Enter a animal: ")
+strcolor = input("Enter a color: ")
+favorite_color = {stranimal: strcolor.strip()}
+
+output = open("datafile2.txt", "ab")
+pickle.dump(favorite_color, output)
+output.close()
+
+# Load the dictionary back from the pickle file.
+with open("datafile2.txt", "rb") as f:
+    favorite_color = pickle.load(f)
+    print(favorite_color)
+    favorite_color1 = pickle.load(f)
+    print(favorite_color1)
+#favorite_color is now { "lion": "yellow", "kitty": "red" }
+
+```
+
+#### Pickle dump & Pickle Load2
+
+
+![the result of Pickle dump & Pickle Load2](https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment07-3-2.JPG "The result of Pickle dump & Pickle Load4")
+#### Figure 4. The result of Pickle dump & Pickle Load2
