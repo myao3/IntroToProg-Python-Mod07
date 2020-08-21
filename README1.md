@@ -2,7 +2,7 @@
 **Dev:** *Myao*   
 **Date:** *8.20.2020*
 
-## Name Error Handling (Try-Except)When you are programming, you fix your bugs immediately and make sure the code runs smoothly. However, it often happens that other people introduce new bugs when they use your program.### Raising Custom ErrorsPython automatically generates errors based on conditions defined by the Python Runtime. However, you can also "raise" errors based on custom conditions . 
+### Name Error Handling (Try-Except)
 
 ```
 # ------------------------------------------------- #
@@ -51,7 +51,7 @@ except Exception as e:
 ![the result of NameError](https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment%2007-1-1.JPG "the result of NameError")
 #### Figure 1. The result of NameError
 
-### answer of Name error
+### Name Error Handling (Try-Except)
 
 ```
 # ------------------------------------------------- #
