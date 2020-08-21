@@ -46,5 +46,8 @@ except Exception as e:
     
 ```
 ####NameError
-![the result of NameError](https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment%2007-1-1.JPG "the result of NameError")####the result of NameError
+
+
+![the result of NameError](https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment%2007-1-1.JPG "the result of NameError")
+####Figure 1. The result of NameError
 
