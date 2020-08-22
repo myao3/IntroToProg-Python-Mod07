@@ -158,7 +158,7 @@ print(favorite_color)
 ![the result of Pickle dump & Pickle Load1](https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment%2007-3-1%20result.JPG "The result of Pickle dump & Pickle Load1")
 #### Figure 4. The result of Pickle dump & Pickle Load1
 
-### For the b elow script, I use pickle.dump(data, txt.file) to save data to a pickle file and use pickle.load(data, txt.file) to load data. 
+### For the below script, I use pickle.dump(data, txt.file) to append user input data to a pickle file and use pickle.load(data, txt.file) to load all data from txt.file. 
 
 ```
 #------------------------------------------------- #
@@ -192,6 +192,6 @@ with open("datafile2.txt", "rb") as f:
 
 #### the result of Pickle dump & Pickle Load2 in txt.file
 
-![the result of Pickle dump & Pickle Load2 in txt.file](https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment%2007-3-2%20result.JPG "the result of Pickle dump & Pickle Load2 in txt.file")
+![the result of Pickle dump & Pickle Load2 in txt.file](https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment%2007-3-2%20result%20txt.JPG "the result of Pickle dump & Pickle Load2 in txt.file")
 #### Figure 6. the result of Pickle dump & Pickle Load2 in txt.file
 
