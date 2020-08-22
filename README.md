@@ -49,7 +49,7 @@ except Exception as e:
 
 
 ![the result of NameError](https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment%2007-1-1%20result.JPG "the result of NameError")
-#### Figure 1. The result of NameError
+#### Figure 1. The result of NameError 
 
 ```
 # ------------------------------------------------- #
@@ -95,7 +95,7 @@ except Exception as e:
 
 
 ![the result of NameError](https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment%2007-1-1%20answer.JPG "the Answer of NameError")
-#### Figure 2. The result of the Answer of NameError
+#### Figure 2. The result of the Answer of NameError in txt.file
 
 ### In Structured error handling function, I write “result = x/y under “try”; and write three exceptions: NameError, ZeroDivisionError. I run the function with zero; this is causing the ZeroDivisionError and run its error message. If I run the function without zero, the script display the result with no exception. 
 
@@ -128,7 +128,7 @@ divide(2, 1)
 #### Figure 3. The result of zerodivisionerror
 
 
-### For the above script, I use pickle.dump(data, txt.file) to save data to a pickle file and use pickle.load(data, txt.file) to load data. 
+### For the below script, I use pickle.dump(data, txt.file) to save data to a pickle file and use pickle.load(data, txt.file) to load data. 
 
 ```
 #------------------------------------------------- #
@@ -157,6 +157,8 @@ print(favorite_color)
 
 ![the result of Pickle dump & Pickle Load1](https://github.com/myao3/IntroToProg-Python-Mod07/blob/master/docs/Assignment%2007-3-1%20result.JPG "The result of Pickle dump & Pickle Load1")
 #### Figure 4. The result of Pickle dump & Pickle Load1
+
+### For the b elow script, I use pickle.dump(data, txt.file) to save data to a pickle file and use pickle.load(data, txt.file) to load data. 
 
 ```
 #------------------------------------------------- #
